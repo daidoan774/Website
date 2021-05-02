@@ -1,0 +1,72 @@
+/* co dinh menu */
+.head_nav.fix {
+    left: 0;
+    max-width: 100%;
+    overflow: visible;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+/* Header */
+.header_menu {
+    background: #1b1b1b;
+}
+.header_menu:hover{
+    background: #25211e;
+}
+    
+
+/* Top left menu */
+ .top_menu_left{
+     float: left;
+     text-align: left;
+     color: #ffffff;
+ }
+ .top_menu_left i {
+     margin-right: 10px;
+ }
+ .top_menu_left i:hover{
+     color:cornsilk
+ }
+  /* Top Right menu */
+  .top_menu_right .form-inline a{
+    color: #ffffff;
+      float: right;
+      text-align: right;
+      margin-left: 10px;
+  }
+  .top_menu_right .sign{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .top_menu_right .sign:hover{
+    border-radius: 10px;
+        background-color: red;
+        color: white;
+        width: 50px;
+        height: 60px;
+        padding-top: 15px;
+    
+  }
+
+  /* Heder logo */
+  .header .logo a  {
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+      top: 40px;
+  }
+  .menu_tab{
+      text-align: center;
+  }
+  .menu_tab ul li  {
+      list-style: none;  
+      display: inline;
+  }
+  .menu_tab ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-block;
+      margin: 20px;
+  }
